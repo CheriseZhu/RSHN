@@ -1,5 +1,5 @@
 # RSHN
-The implementation of our ICDM 2019 paper "Relation Structure-Aware Heterogeneous Graph Neural Network" RSHN.
+The implementation of our ICDM 2019 paper "Relation Structure-Aware Heterogeneous Graph Neural Network" [RSHN](https://www.researchgate.net/publication/337473241_Relation_Structure-Aware_Heterogeneous_Graph_Neural_Network). [Slides](http://ddl.escience.cn/f/UW3L).
 
 # Requirements
 python == 3.6.2<br>
