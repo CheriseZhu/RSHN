@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(0, '../')
 import os.path as osp
 
 import torch
