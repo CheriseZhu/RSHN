@@ -53,7 +53,7 @@ class RelationConv(torch.nn.Module):
         alpha = softmax(alpha, row, num_nodes=x.size(0))
 
         '''Perform the propagation.'''
-        out = spmm(edge_index, alpha, x.size(0), x)
+        out = spmm(edge_index, alpha, x.size(0), x.size(1), x)
         out = (1 + self.eps) * x + out
         return out
 
